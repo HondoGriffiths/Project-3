@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(17, 255, 0);
+}
+nav {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+
+p {
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width: 768px) {
+    body {
+      font-size: 14px;
+
+    }
+  }
+  
+  @media screen and (min-width: 769px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  
